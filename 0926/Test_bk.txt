@@ -1,0 +1,33 @@
+路人甲
+https://zhuanlan.zhihu.com/p/24844250
+ecco
+hub地址：xtuhcy/gecco
+co是一款用java語言開發的輕量化的易用的網絡爬蟲。整合了jsoup、httpclient、fastjson、spring、htmlunit、redission等框架，只需要配置一些jquery風格的選擇器就能很快的寫出一個爬蟲。Gecco框架有優秀的可擴展性，框架基於開閉原則進行設計，對修改關閉、對擴展開放。
+ebCollector
+hub地址：CrawlScript/WebCollector
+Collector是一個無須配置、便於二次開發的JAVA爬蟲框架（內核），它提供精簡的的API，只需少量代碼即可實現一個功能強大的爬蟲。WebCollector-Hadoop是WebCollector的Hadoop版本，支持分布式爬取。
+piderman
+址：l-weiwei/Spiderman2 - 碼雲 - 開源中國
+例：展現垂直爬蟲的能力 - 像風一樣自由
+derman 是一個基於微內核+插件式架構的網絡蜘蛛，它的目標是通過簡單的方法就能將複雜的目標網頁信息抓取並解析為自己所需要的業務數據。
+ebMagic
+址：flashsword20/webmagic - 碼雲 - 開源中國
+magic的是一個無須配置、便於二次開發的爬蟲框架，它提供簡單靈活的API，只需少量代碼即可實現一個爬蟲。webmagic採用完全模塊化的設計，功能覆蓋整個爬蟲的生命周期(連結提取、頁面下載、內容抽取、持久化)，支持多線程抓取，分布式抓取，並支持自動重試、自定義UA/cookie等功能。
+eritrix
+hub地址：internetarchive/heritrix3
+itrix是一個開源，可擴展的web爬蟲項目。用戶可以使用它來從網上抓取想要的資源。Heritrix設計成嚴格按照robots.txt文件的排除指示和META robots標籤。其最出色之處在於它良好的可擴展性,方便用戶實現自己的抓取邏輯。
+
+rawler4j
+hub地址：yasserg/crawler4j · GitHub
+wler4j是Java實現的開源網絡爬蟲。提供了簡單易用的接口，可以在幾分鐘內創建一個多線程網絡爬蟲。
+utch
+hub地址：apache/nutch
+ch 是一個開源Java 實現的搜尋引擎。它提供了我們運行自己的搜尋引擎所需的全部工具。包括全文搜索和Web爬蟲。
+tch的進化過程中，產生了Hadoop、Tika、Gora和Crawler Commons四個Java開源項目。如今這四個項目都發展迅速，極其火爆，尤其是Hadoop，其已成為大規模數據處理的事實上的標準。Tika使用多種現有的開源內容解析項目來實現從多種格式的文件中提取元數據和結構化文本，Gora支持把大數據持久化到多種存儲實現，Crawler Commons是一個通用的網絡爬蟲組件。
+eimiCrawler
+hub地址：zhegexiaohuozi/SeimiCrawler
+miCrawler是一個敏捷的，獨立部署的，支持分布式的Java爬蟲框架，希望能在最大程度上降低新手開發一個可用性高且性能不差的爬蟲系統的門檻，以及提升開發爬蟲系統的開發效率。在SeimiCrawler的世界裡，絕大多數人只需關心去寫抓取的業務邏輯就夠了，其餘的Seimi幫你搞定。設計思想上SeimiCrawler受Python的爬蟲框架Scrapy啟發，同時融合了Java語言本身特點與Spring的特性，並希望在國內更方便且普遍的使用更有效率的XPath解析HTML，所以SeimiCrawler默認的HTML解析器是JsoupXpath(獨立擴展項目，非jsoup自帶),默認解析提取HTML數據工作均使用XPath來完成（當然，數據處理亦可以自行選擇其他解析器）。並結合SeimiAgent徹底完美解決複雜動態頁面渲染抓取問題。
+soup
+hub地址：jhy/jsoup
+南：jsoup開發指南,jsoup中文文檔
+up 是一款Java 的HTML解析器，可直接解析URL地址、HTML文本內容。它提供了一套非常省力的API，可通過DOM，CSS以及類似於jQuery的操作方法來取出和操作數據。
